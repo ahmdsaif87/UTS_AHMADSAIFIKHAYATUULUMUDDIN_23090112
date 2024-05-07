@@ -1,0 +1,5 @@
+bilPertama = int(input("input bilangan pertama: "))
+bilkedua = int(input("input bilangan kedua: "))
+print(f"Hasil Penjumlahan : {bilPertama + bilkedua}")
+print(f"Hasil Pengurangan : {bilPertama - bilkedua}")
+print(f"Hasil Modulus : {bilPertama % bilkedua}")

@@ -1,0 +1,2 @@
+tahun = int(input("Masukkan Tahun: "))
+print(f"Tahun {tahun} Merupakan TAHUN KABISAT") if (tahun % 4 == 0 and tahun % 100 != 0) or tahun % 400 == 0 else print(f"Tahun {tahun} Bukan Merupakan TAHUN KABISAT")
